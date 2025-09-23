@@ -27,7 +27,7 @@ In terms of ISO 11179 (used e.g. in Aristotle),
 * **Data Elements** are not currently modelled in the Data Dictionary:
 the interface provides information on values, but it does not currently model data domains
 
-For the entity list only, there is an additional filter with four selections(**all**/**abstract**/**element**/**object**) for its content, based on the entity's metadata type. The **all** selection means no filter for the entity list.
+
 
 #### Entity Hierarchy
 Elements and Objects are organised hierarchically in the Data Dictionary; for example:
@@ -42,3 +42,23 @@ The footer contains two buttons "Go To Entities Page" and "Go To Collections Pag
 
 #### View
 <img width="1913" height="871" alt="image" src="https://github.com/user-attachments/assets/e9dff287-bf90-40a7-879f-928e067e43e4" />
+
+## Entities Page
+### Left Pane
+#### Home Button
+When clicked the user is navigated to the landing page
+
+<img width="49" height="49" alt="image" src="https://github.com/user-attachments/assets/ce18cc3e-f2d3-4478-840b-b29e3163d984" />
+
+#### Filtering
+There is a filter with four selections(**all**/**abstract**/**element**/**object**) for its content, based on the entity's metadata type. The **all** selection means no filter for the entity list.
+
+<img width="575" height="253" alt="Screenshot 2025-09-24 093201" src="https://github.com/user-attachments/assets/da35eab9-f08a-4f04-a521-7d8b65382d67" />
+
+#### Entity Table
+This table contains all of the entities and their types. The table is scrollable. When you click a row in the table the data for that entry is fetched and displayed in the right pane
+
+<img width="564" height="754" alt="image" src="https://github.com/user-attachments/assets/0b3b1aff-b9dc-4bd5-8b8f-2a60ceb553d9" />
+
+
+
