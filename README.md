@@ -44,7 +44,7 @@ The footer contains two buttons "Go To Entities Page" and "Go To Collections Pag
 ## Entities Page
 ### Left Pane
 #### Home Button
-When clicked the user is navigated to the landing page
+Navigates the user back to the landing page.
 
 <img width="49" height="49" alt="image" src="https://github.com/user-attachments/assets/ce18cc3e-f2d3-4478-840b-b29e3163d984" />
 
@@ -59,7 +59,7 @@ This table lists all entities along with their types. It is scrollable, and sele
 <img width="564" height="754" alt="image" src="https://github.com/user-attachments/assets/0b3b1aff-b9dc-4bd5-8b8f-2a60ceb553d9" />
 
 ### Right Pane
-The right pane is comprised of two views the top Details view and the bottom Links view.
+The Right Pane is divided into two views: the Details view (top) and the Links view (bottom).
 
 #### Details
 The Details view has five tabs:
@@ -125,3 +125,23 @@ Controls:
 <img width="962" height="690" alt="image" src="https://github.com/user-attachments/assets/efd52693-c5a7-4a82-9028-16f833509ffa" />
 
 
+## Collections Page
+### Left Pane
+#### Home Button
+Navigates the user back to the landing page.
+
+<img width="49" height="49" alt="image" src="https://github.com/user-attachments/assets/ce18cc3e-f2d3-4478-840b-b29e3163d984" />
+
+#### Collections Table
+This table lists all collections, It is scrollable, and selecting a row retrieves the corresponding data and displays it in the Right pane.
+
+<img width="572" height="868" alt="image" src="https://github.com/user-attachments/assets/22cbee31-ff62-4345-97d7-6cba6d66ffae" />
+
+### Right Pane
+The Right Pane is divided into two views: the Details view (top) and the Links view (bottom).
+
+#### Details
+The Details view contains two sections:
+ * Definition
+ * URL
+The relevant data for each section is displayed under its heading.
