@@ -145,3 +145,7 @@ The Details view contains two sections:
  * Definition
  * URL
 The relevant data for each section is displayed under its heading.
+
+#### Links
+Displays just one table thats lists all the entities connected to the selected Collection
+Double clicking opens the Junction Modal
