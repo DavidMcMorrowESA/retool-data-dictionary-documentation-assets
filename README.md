@@ -54,7 +54,7 @@ There is a filter with four selections(**all**/**abstract**/**element**/**object
 <img width="575" height="253" alt="Screenshot 2025-09-24 093201" src="https://github.com/user-attachments/assets/da35eab9-f08a-4f04-a521-7d8b65382d67" />
 
 #### Entity Table
-This table contains all of the entities and their types. The table is scrollable. When you click a row in the table the data for that entry is fetched and displayed in the right pane
+This table lists all entities along with their types. It is scrollable, and selecting a row retrieves the corresponding data and displays it in the Right pane.
 
 <img width="564" height="754" alt="image" src="https://github.com/user-attachments/assets/0b3b1aff-b9dc-4bd5-8b8f-2a60ceb553d9" />
 
@@ -101,5 +101,27 @@ Double-click behavior:
 This button is displayed at the end of the tabs view and when seleced opens an info dialog explaining what each of the tabs means
 
 // WILL NEED TO PUT THE TEXT HERE
+
+### Junction Modal
+The Junction Modal appears in two cases:
+ * When a linked collection is selected on the Entities page.
+ * When a linked entity is selected on the Collections page.
+
+This modal displays all data related to the junction between those entities and collections. The information may include:
+ * Description
+ * Standard
+ * Element Name
+ * Commentary
+ * Business Rules
+ * Values
+ * Definition Modification
+ * Elements
+If no data exists for a given section, that section is omitted.
+
+Controls:
+ * Close and Cancel — Return the user to the previous screen.
+ * Progress — Opens the linked elements screen, showing the element in the Left Pane and its data in the Right Pane.
+
+<img width="962" height="690" alt="image" src="https://github.com/user-attachments/assets/efd52693-c5a7-4a82-9028-16f833509ffa" />
 
 
