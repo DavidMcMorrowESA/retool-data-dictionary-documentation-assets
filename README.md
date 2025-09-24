@@ -27,8 +27,6 @@ In terms of ISO 11179 (used e.g. in Aristotle),
 * **Data Elements** are not currently modelled in the Data Dictionary:
 the interface provides information on values, but it does not currently model data domains
 
-
-
 #### Entity Hierarchy
 Elements and Objects are organised hierarchically in the Data Dictionary; for example:
   * Organisation > School > Campus (objects)
@@ -60,5 +58,48 @@ This table contains all of the entities and their types. The table is scrollable
 
 <img width="564" height="754" alt="image" src="https://github.com/user-attachments/assets/0b3b1aff-b9dc-4bd5-8b8f-2a60ceb553d9" />
 
+### Right Pane
+The right pane is comprised of two views the top Details view and the bottom Links view.
+
+#### Details
+The Details view has five tabs:
+ * Definition
+ * SIF
+ * Other Standards
+ * Legal Definitions
+ * Sensitivity
+Upon selecting a tab the data related to that area displayed in the space under the tabs bar.
+
+<img width="1328" height="49" alt="image" src="https://github.com/user-attachments/assets/5ef2752c-9292-4463-b4ef-e166be1254ab" />
+
+##### Info Button
+This button is displayed at the end of the tabs view and when seleced opens an info dialog explaining what each of the tabs means
+
+// WILL NEED TO PUT THE TEXT HERE
+
+#### Links
+The Links view has six tabs:
+ * Superclass
+ * Subclass
+ * Has Attribute
+ * Is Attribute Of
+ * Related
+ * Linked Collections
+
+Selecting a tab displays the corresponding data in the area below the tab bar.
+ * For most tabs, this data consists of Entities linked to the Entity selected in the Left Pane.
+ * For Linked Collections, the data consists of Collections instead of Entities.
+
+Double-click behavior:
+ * Entities → The Entities page resets with the linked Entity in the Left Pane, and the Right Pane updates with its values.
+ * Linked Collections → A modal opens with details for the selected collection.
+
+<img width="1330" height="92" alt="image" src="https://github.com/user-attachments/assets/d0665506-e50a-441e-9bb4-e99458fcfba6" />
+
+
+##### Info Button
+This button is displayed at the end of the tabs view and when seleced opens an info dialog explaining what each of the tabs means
+
+// WILL NEED TO PUT THE TEXT HERE
 
 
