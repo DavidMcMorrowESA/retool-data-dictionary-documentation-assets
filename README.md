@@ -15,6 +15,34 @@ The definitions in the data dictionary will reflect a broad, national consensus,
 The data dictionary can also be used to enable privacy compliance, by identifying sensitive data elements transacted between agencies, without restriction to a single data standard. Facilitating data privacy compliance is a downstream benefit of the data dictionary, and its use to that end will be piloted. However, privacy classifications of data are specific to agencies, and the data dictionary will not impose a single privacy classification over its
 data definitions.
 
+#### How to Use the App
+ * **Entities Page** — Browse and explore all entities (objects and attributes).
+
+ * **Collections Page** — Browse and explore collections and the entities they contain.
+
+ * **Navigation** — Use double-click to follow links between related entities and collections.
+
+ * **Junction Modal** — View collection-specific definitions, business rules, and values for linked items.
+
+#### Key Features
+ * Browse national-level data definitions.
+
+ * Compare how entities are used across collections.
+
+ * Navigate relationships between objects, attributes, and collections.
+
+ * Access collection-specific metadata via the Junction Modal.
+
+ * Support privacy compliance by flagging sensitive elements.
+
+#### Footer
+The footer contains three buttons "Go To Technical Info", "Go To Entities Page" and "Go To Collections Page", when clicked this navigates the user to the respective pages.
+
+#### View
+<img width="1911" height="871" alt="image" src="https://github.com/user-attachments/assets/bbf89b36-eec7-4c6b-97c5-45ee57fe34dd" />
+
+## Technical Information Page
+### Technical Info
 #### Modelling
 The Entity and Collection list panel is located at the left side of their respective dictionary pages. They can be filtered to separate all items based on their metadata type:
 * **Elements** are attributes of **Objects**
@@ -36,10 +64,10 @@ Elements and Objects are organised hierarchically in the Data Dictionary; for ex
 The Entity hierarchy can be navigated through the Linked Tables section of the Entity page. In this section there is two tables Superclass and Subclass which list the selected entities Parents and Children respectively. Users can navigate to view these entities by double clicking the row.
 
 #### Footer
-The footer contains two buttons "Go To Entities Page" and "Go To Collections Page", when clicked this navigates the user to the respective pages
+The footer contains three buttons "Go To Home Page", "Go To Entities Page" and "Go To Collections Page", when clicked this navigates the user to the respective pages
 
 #### View
-<img width="1913" height="871" alt="image" src="https://github.com/user-attachments/assets/e9dff287-bf90-40a7-879f-928e067e43e4" />
+<img width="1915" height="866" alt="image" src="https://github.com/user-attachments/assets/109513ef-5f66-4317-8a95-082f0710af28" />
 
 ## Entities Page
 ### Left Pane
