@@ -64,10 +64,11 @@ Elements and Objects are organised hierarchically in the Data Dictionary; for ex
 The Entity hierarchy can be navigated through the Linked Tables section of the Entity page. In this section there is two tables Superclass and Subclass which list the selected entities Parents and Children respectively. Users can navigate to view these entities by double clicking the row.
 
 #### Footer
-The footer contains three buttons "Go To Home Page", "Go To Entities Page" and "Go To Collections Page", when clicked this navigates the user to the respective pages
+The footer includes four buttons: Go To Home Page, Go To Entities Page, and Go To Collections Page, which navigate the user to their respective pages.
+It also includes a Download JSON button. When clicked, a ZIP archive is downloaded containing a JSON file for each database table, with all associated data.
 
 #### View
-<img width="1915" height="866" alt="image" src="https://github.com/user-attachments/assets/109513ef-5f66-4317-8a95-082f0710af28" />
+<img width="1914" height="867" alt="image" src="https://github.com/user-attachments/assets/012886f4-05fc-4186-9e63-3ca1e93b726f" />
 
 ## Entities Page
 ### Left Pane
