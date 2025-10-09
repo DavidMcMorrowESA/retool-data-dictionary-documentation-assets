@@ -51,36 +51,59 @@ Selecting “Download JSON” downloads a ZIP file containing twelve individual 
 Underneath an Acknowledgment of Country is displayed, along with links to the [Copyright](https://creativecommons.org/publicdomain/zero/1.0/) and [Privacy](https://www.esa.edu.au/privacy) policies
 
 #### View
-<img width="1905" height="864" alt="image" src="https://github.com/user-attachments/assets/8b1aec09-e56d-453e-a0f3-98fda125ba50" />
+<img width="1917" height="873" alt="image" src="https://github.com/user-attachments/assets/8b1aec09-e56d-453e-a0f3-98fda125ba50" />
 
 ## Technical Information Page
 ### Technical Info
 #### Modelling
-The Entity and Collection list panel is located at the left side of their respective dictionary pages. They can be filtered to separate all items based on their metadata type:
-* **Elements** are attributes of **Objects**
-* **Elements** are concrete instances of **Abstract Elements**
-* Different **Elements** are collected in different Data **Collections**
-  
-In terms of ISO 11179 (used e.g. in Aristotle),
-* Abstract Elements correspond to **Properties**
-* Elements correspond to **Data Element Concepts**
-* **Data Elements** are not currently modelled in the Data Dictionary:
-the interface provides information on values, but it does not currently model data domains
+The data dictionary uses a hierarchical model of *entities* belonging to *collections*, where entities are *objects* with *attributes*. For example:
+ 
+* _School_ is an object, with attributes such as _ACARA ID_ and _School name_
+* _School_ is captured in several collections, such as the _National School Census_ and _NAPLAN Registration_.
 
-#### Entity Hierarchy
-Elements and Objects are organised hierarchically in the Data Dictionary; for example:
-  * Organisation > School > Campus (objects)
-  * Person > Staff, Student (objects)
-  * Identifier > Organisation Identifier > School Identifier (abstract elements)
 
-The Entity hierarchy can be navigated through the Linked Tables section of the Entity page. In this section there is two tables Superclass and Subclass which list the selected entities Parents and Children respectively. Users can navigate to view these entities by double clicking the row.
+The Entity and Collection list panel is located at the left side of their respective dictionary pages, as the basic distinction that the data dictionary makes. 
+
+The information model behind entities is derived from [ISO 11179](https://en.wikipedia.org/wiki/ISO/IEC_11179), which is widely used in data dictionaries (such as [Aristotle](https://aristotlemetadata.com/)). The ISO 11179 model ([source](https://www.sciencedirect.com/science/article/pii/S1532046412001827)) defines the following elements:
+
+ * **object_class**: set of ideas, abstractions or things in the real world that are identified with explicit boundaries and meaning and whose properties and behavior follow the same rules,
+ * **characteristic**: abstraction of a property of an object or of a set of objects,
+ * **data_element_concept**: concept that can be expressed in the form of a data element, described independently of any particular representation,
+ * **data_element**: unit of data that is considered in context to be indivisible,
+ * **conceptual_domain**: concept that expresses its valid instance meanings or description.
+
+![Diagram](https://ars.els-cdn.com/content/image/1-s2.0-S1532046412001827-gr1.jpg)
+
+A data dictionary track attributes of objects: data element concepts. So it needs a notion of objects (_schools, students, staff_), a notion of properties (_name, gender, identifier_), and a notion of a property specific to an object (_school name, student gender, staff identifier_).
+
+In the language used in this data dictionary,
+
+* **Elements** (ISO 11179: _Data element concepts_) are attributes of **Objects** (ISO 11179: _Object classes_)
+* **Elements** are concrete instances of **Abstract Elements** (ISO 11179: _Characteristics_)
+
+For the entity list only, there is an additional filter with four selections (**all**/**abstract**/**element**/**object**) for its content, based on the entity's metadata type. The **all** selection means no filter for the entity list.
+
+There are three components of the ISO 11179 model that the data dictionary captures only in descriptive text, but not in navigation as distinct entities:
+
+* Data dictionaries track how a Data element component is represented in a data standard (_Data element_). That includes for example the SIF-AU representation of School as the `SchoolInfo` object. The data dictionary tracks this information in its representation of data standards, and its discussion of data collections.
+* Data dictionaries track the possible values of a Data element (_Value domain_), and the conceptual foundation for those possible values (_Conceptual domain_). So the conceptual domain for gender includes  Male, Female, Non-Binary, Intersex; the value domain for a specific data element, how values are coded, could be "1", "2", "3", "4", or "M", "F", "Other", or indeed the strings "Male", "Female", "Non-Binary", "Intersex". The conceptual domain for school identifiers is strings; the value domain for ACARA IDs is five-digit numbers.
+  * Because the data dictionary is meant to range across multiple data representations, it does not cover value domains, and it gives only high-level description of value domains, particularly as they relate to collections.
+
+The data dictionary adds a further layer of hierarchical modelling:
+
+* Entities can be subclasses of other entities; e.g. _Student_ is a subclass of _Person_, _Campus_ is a subclass of _School_, _Student Name_ is a subclass of _Name_
+* Subclasses inherit the attributes of their superclasses; e.g. if _Person_ has the attribute _Person Address_, and _Staff_ is a subclass of _Person_, then _Staff_ also has the attribute _Person Address_. These inherited attributes are shown separately in the data dictionary 
+* Subclasses can override inherited attributes; e.g. _Organization_ has a default _Organization Identifier_, but _School_ has _ACARA ID_, which overrides _Organization Identifier_
+
+The following illustrates the overall conceptual model of the data dictionary, with subclasses, related entities, and collections:
+
+<img width="800" height="650" alt="image" src="https://github.com/user-attachments/assets/1cc9526c-c2d4-4663-8d30-90d813bffffc" />
 
 #### Footer
-The footer includes four buttons: Go To Home Page, Go To Entities Page, and Go To Collections Page, which navigate the user to their respective pages.
-It also includes a Download JSON button. When clicked, a ZIP archive is downloaded containing a JSON file for each database table, with all associated data.
+The footer includes three buttons: Go To Home Page, Go To Entities Page, and Go To Collections Page, which navigate the user to their respective pages.
 
 #### View
-<img width="1914" height="867" alt="image" src="https://github.com/user-attachments/assets/012886f4-05fc-4186-9e63-3ca1e93b726f" />
+<img width="1917" height="873" alt="image" src="https://github.com/user-attachments/assets/bd8e30ca-f7e7-454d-bd62-6e2632398a49" />
 
 ## Entities Page
 ### Left Pane
