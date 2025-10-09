@@ -213,3 +213,39 @@ The relevant data for each section is displayed under its heading.
 #### Links
 Displays just one table thats lists all the entities connected to the selected Collection
 Double clicking opens the Junction Modal
+
+## Submissions Page
+### Submissions
+Use this page to propose new data definitions or updates to existing ones in the National Education Data Dictionary. You can submit either a new Entity or a new Collection using the Excel templates below. Download the template you need, complete it, and email it to nick.nicholas@nsip.edu.au
+
+#### How It Works
+1. Download the relevant template
+2. Complete the fields (follow the notes on each tab)
+3. Save your file
+4. Email it to nick.nicholas@nsip.edu.au
+5. Once submitted, your proposal will be reviewed by the NSIP team. You’ll be contacted if any clarification is required.
+
+#### Templates
+* **Collections Submission (Excel)** – propose a new collection.
+  * Includes: definition, URLs, linked entities.
+* **Entity Submission (Excel)** – propose a new entity.
+  * Includes: definitions, standards (SIF/other), legal definitions, sensitivity, relationships, linked collections.
+  * One entity per workbook.
+
+#### Notes
+* Leave sections blank if they don’t apply.
+* Don’t rename tabs or change the structure.
+* Accepted format: .xlsx
+* Submissions are reviewed before being added to the data dictionary.
+
+#### Questions
+Email nick.nicholas@nsip.edu.au
+
+#### Download Forms
+This section includes two icon text boxes that allow users to download the submission templates. Selecting an icon downloads either the New Entity Form or the New Collection Form.
+
+#### Footer
+The footer has one: Go To Home Page, which navigates the user to the home pages.
+
+#### View
+<img width="1912" height="868" alt="image" src="https://github.com/user-attachments/assets/f3567904-5b04-420b-8b6c-0b27f83171f5" />
