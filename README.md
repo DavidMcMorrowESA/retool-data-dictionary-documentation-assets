@@ -4,42 +4,54 @@ Documentation assets for the Retool front end to the National Education Data Dic
 ## Landing Page
 ### National Education Data Dictionary
 #### Background
-The NSIP Team at ESA has developed a prototype online data dictionary service intended to make it easier to mobilise data between different agencies and vendors, in order to:
+The **online data dictionary service for Australian education data** is a prototype, jointly funded through the State, Territory and Federal Departments for Education as part of the National Schools Interoperability Program (NSIP), a business unit of Education Services Australia (ESA). The national data dictionary is intended to make it easier to mobilise data between different agencies and vendors. The data dictionary will:
 
 * make data collection more efficient for schools and vendors
 * coordinate the enterprise data modelling efforts of different school authorities
 * help agencies to plan data collection activities more effectively.
 
-The definitions in the data dictionary will reflect a broad, national consensus, but individual standards and collections may involve different granularities or understandings of data, having been devised for different purposes. In order to reconcile the differences in definitions and usage between school authorities, the data dictionary definition will link to the different contexts that its elements turn up in, particularly in different data collections, and the different definitions and business rules applied in those contexts. For example, it should capture the different ways that authorities define schools and sub-school entities, as a caveat for people working across authorities.
+The data dictionary captures the **definitions** of entities that occur across different national data collections, how the entities are **related** to each other (superclass/subclass, object/attribute), and how the entities are represented in different **data standards**. While the entity definitions reflect a broad, national consensus, the data dictionary also tracks differences in understanding about entities in different **school authorities** and different **data collections**, which have long been a concern for data mobility in the sector. The data dictionary definition of entities links to different contexts that they appear in, including different data collections, and to the different definitions and **business rules** applied in those contexts. It also links to the range of state and federal **legislation** determining how the entities are understood in different jurisdictions.
 
-The data dictionary can also be used to enable privacy compliance, by identifying sensitive data elements transacted between agencies, without restriction to a single data standard. Facilitating data privacy compliance is a downstream benefit of the data dictionary, and its use to that end will be piloted. However, privacy classifications of data are specific to agencies, and the data dictionary will not impose a single privacy classification over its
-data definitions.
+For example,
+* The data dictionary defines School as an entity, and provides information about it (such as the overall definition, and the level of sensitivity that various jurisdictions apply to it in privacy compliance.)
+* It further provides the relation of School as an entity to subclass and superclass entities (Organisation, Campus), and to attributes (ACARA ID, School Name, School Level).
+* The dictionary entity links to various pieces of legislation, at a state and federal level, determining how schools are understood in different jurisdictions.
+* It links to different data standards that represent schools, and the definitions they give.
+* It also links to several data collections which gather information about schools, so that the varying definitions and business rules applying to them can be looked up in one place.
 
 #### How to Use the App
  * **Entities Page** — Browse and explore all entities (objects and attributes).
-
  * **Collections Page** — Browse and explore collections and the entities they contain.
-
  * **Navigation** — Use double-click to follow links between related entities and collections.
+ * **Junction Modal** — Pop-up when navigating between entities and collections. View collection-specific definitions, business rules, and value restrictions for entities.
 
- * **Junction Modal** — View collection-specific definitions, business rules, and values for linked items.
+#### Entity Hierarchy
+Elements and Objects are organised hierarchically in the Data Dictionary; for example:
+  * Organisation > School > Campus (objects)
+  * Person > Staff, Student (objects)
+  * Identifier > Organisation Identifier > School Identifier (abstract elements)
+
+The Entity hierarchy can be navigated through the Linked Tables section of the Entity page. In this section there are two tables Superclass and Subclass which list the selected entities Parents and Children respectively. Users can navigate to view these entities by double clicking the row.
 
 #### Key Features
  * Browse national-level data definitions.
-
  * Compare how entities are used across collections.
-
- * Navigate relationships between objects, attributes, and collections.
-
+ * Navigate relationships between objects, attributes, and collections.=
  * Access collection-specific metadata via the Junction Modal.
-
  * Support privacy compliance by flagging sensitive elements.
 
+#### Business Motivation
+A PDF with more information about the business case for the data dictionary, and what problems it is seeking to solve, can be viewed by clicking the download icon.
+
 #### Footer
-The footer contains three buttons "Go To Technical Info", "Go To Entities Page" and "Go To Collections Page", when clicked this navigates the user to the respective pages.
+The footer contains five buttons: “Go To Technical Info,” “Go To Entities,” “Go To Collections,” “Go To Submissions,” and “Download JSON.”
+Clicking any of the first four buttons navigates the user to the corresponding page.
+Selecting “Download JSON” downloads a ZIP file containing twelve individual JSON files — one for each table in the database — providing a complete export of all data.
+
+Underneath an Acknowledgment of Country is displayed, along with links to the [Copyright](https://creativecommons.org/publicdomain/zero/1.0/) and [Privacy](https://www.esa.edu.au/privacy) policies
 
 #### View
-<img width="1911" height="871" alt="image" src="https://github.com/user-attachments/assets/bbf89b36-eec7-4c6b-97c5-45ee57fe34dd" />
+<img width="1905" height="864" alt="image" src="https://github.com/user-attachments/assets/8b1aec09-e56d-453e-a0f3-98fda125ba50" />
 
 ## Technical Information Page
 ### Technical Info
