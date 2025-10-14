@@ -216,13 +216,13 @@ Double clicking opens the Junction Modal
 
 ## Submissions Page
 ### Submissions
-Use this page to propose new data definitions or updates to existing ones in the National Education Data Dictionary. You can submit either a new Entity or a new Collection using the Excel templates below. Download the template you need, complete it, and email it to nick.nicholas@nsip.edu.au
+Use this page to propose new data definitions or updates to existing ones in the National Education Data Dictionary. You can submit either a new Entity or a new Collection using the Excel templates below. Download the template you need, complete it, and email it to info@nsip.edu.au
 
 #### How It Works
 1. Download the relevant template
 2. Complete the fields (follow the notes on each tab)
 3. Save your file
-4. Email it to nick.nicholas@nsip.edu.au
+4. Email it to info@nsip.edu.au
 5. Once submitted, your proposal will be reviewed by the NSIP team. You’ll be contacted if any clarification is required.
 
 #### Templates
@@ -239,7 +239,7 @@ Use this page to propose new data definitions or updates to existing ones in the
 * Submissions are reviewed before being added to the data dictionary.
 
 #### Questions
-Email nick.nicholas@nsip.edu.au
+Email info@nsip.edu.au
 
 #### Download Forms
 This section includes two icon text boxes that allow users to download the submission templates. Selecting an icon downloads either the New Entity Form or the New Collection Form.
