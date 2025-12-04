@@ -113,9 +113,17 @@ Navigates the user back to the landing page.
 <img width="49" height="49" alt="image" src="https://github.com/user-attachments/assets/ce18cc3e-f2d3-4478-840b-b29e3163d984" />
 
 #### Filtering
+The interface includes both filtering on Entity Types and Entity Names.
+
+<ins>Type Filtering</ins>  
 There is a filter with four selections(**all**/**abstract**/**element**/**object**) for its content, based on the entity's metadata type. The **all** selection means no filter for the entity list.
 
 <img width="575" height="253" alt="Screenshot 2025-09-24 093201" src="https://github.com/user-attachments/assets/da35eab9-f08a-4f04-a521-7d8b65382d67" />
+
+<ins>Name Filtering</ins>  
+A search bar is located at the top of the entity list, allowing users to quickly find specific entities by name.
+
+<img width="566" height="49" alt="image" src="https://github.com/user-attachments/assets/98fb17a2-88a5-4dba-87ca-ed23690899ef" />  
 
 #### Entity Table
 This table lists all entities along with their types. It is scrollable, and selecting a row retrieves the corresponding data and displays it in the Right pane.
@@ -132,14 +140,16 @@ The Details view has five tabs:
  * Other Standards
  * Legal Definitions
  * Sensitivity
+ * Metadata
+
 Upon selecting a tab the data related to that area displayed in the space under the tabs bar.
 
-<img width="1328" height="49" alt="image" src="https://github.com/user-attachments/assets/5ef2752c-9292-4463-b4ef-e166be1254ab" />
+<img width="1323" height="51" alt="image" src="https://github.com/user-attachments/assets/3afd5cdf-684c-443d-b62f-a04cf6cdc640" />
 
 ##### Info Button
 This button is displayed at the end of the tabs view and when seleced opens an info dialog explaining what each of the tabs means
 
-// WILL NEED TO PUT THE TEXT HERE
+<img width="731" height="643" alt="image" src="https://github.com/user-attachments/assets/3fc188fe-54dd-4996-a8d0-235f3558f22b" />
 
 #### Links
 The Links view has six tabs:
@@ -164,7 +174,7 @@ Double-click behavior:
 ##### Info Button
 This button is displayed at the end of the tabs view and when seleced opens an info dialog explaining what each of the tabs means
 
-// WILL NEED TO PUT THE TEXT HERE
+<img width="725" height="542" alt="image" src="https://github.com/user-attachments/assets/55095029-b21b-4024-a17b-bae3a4a8315b" />
 
 ### Junction Modal
 The Junction Modal appears in two cases:
@@ -195,6 +205,10 @@ Controls:
 Navigates the user back to the landing page.
 
 <img width="49" height="49" alt="image" src="https://github.com/user-attachments/assets/ce18cc3e-f2d3-4478-840b-b29e3163d984" />
+
+#### Filtering
+A search bar is located at the top of the collection list, allowing users to quickly find specific entities by name or definition.
+<img width="563" height="47" alt="image" src="https://github.com/user-attachments/assets/3ed5967c-a3a8-4bc7-bf16-c2765fc58533" />
 
 #### Collections Table
 This table lists all collections, It is scrollable, and selecting a row retrieves the corresponding data and displays it in the Right pane.
