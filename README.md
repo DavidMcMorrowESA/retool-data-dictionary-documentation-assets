@@ -170,7 +170,6 @@ Double-click behavior:
 
 <img width="1330" height="92" alt="image" src="https://github.com/user-attachments/assets/d0665506-e50a-441e-9bb4-e99458fcfba6" />
 
-
 ##### Info Button
 This button is displayed at the end of the tabs view and when seleced opens an info dialog explaining what each of the tabs means
 
@@ -198,6 +197,16 @@ Controls:
 
 <img width="962" height="690" alt="image" src="https://github.com/user-attachments/assets/efd52693-c5a7-4a82-9028-16f833509ffa" />
 
+#### Tree
+The Tree component provides an interactive visualization that maps how the selected data entity connects to superclasses, subclasses, attributes, and related elements within the data dictionary. This visual graph helps users quickly understand the structure, hierarchy, and dependencies surrounding a central entity. Codebase can here found [here](https://github.com/nsip/retool-custom-graph)
+
+<img width="597" height="381" alt="image" src="https://github.com/user-attachments/assets/c7625be6-966a-4d91-97e0-012afae04361" />
+
+##### Info Button
+This button is displayed and when seleced opens a dialog with an expanded view of the custom component and a legend.
+
+##### Legend
+<img width="869" height="59" alt="image" src="https://github.com/user-attachments/assets/21916c87-2187-48e4-b99b-220feb39da83" />
 
 ## Collections Page
 ### Left Pane
