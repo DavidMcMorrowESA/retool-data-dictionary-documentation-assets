@@ -198,6 +198,17 @@ Controls:
 
 <img width="962" height="690" alt="image" src="https://github.com/user-attachments/assets/efd52693-c5a7-4a82-9028-16f833509ffa" />
 
+#### Graph
+The Graph component provides an interactive visualization that maps how the selected data entity connects to superclasses, subclasses, attributes, and related elements within the data dictionary. This visual graph helps users quickly understand the structure, hierarchy, and dependencies surrounding a central entity. Codebase can be found [here](https://github.com/nsip/retool-custom-graph)
+
+<img width="684" height="412" alt="image" src="https://github.com/user-attachments/assets/40c7793e-a187-4e1b-b9d8-4ab29656b4eb" />
+
+##### Expand Button
+This button is displayed and when seleced opens a dialog with an expanded view of the custom component and a legend.
+
+##### Legend
+The legend outlines what different shapes and colours mean on the graph
+<img width="1883" height="99" alt="image" src="https://github.com/user-attachments/assets/76d5c25f-ac5e-4228-9d72-57d785ef382f" />
 
 ## Collections Page
 ### Left Pane
